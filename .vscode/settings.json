@@ -1,0 +1,8 @@
+{
+    "markdown.copyFiles.destination": {
+        "/source/about/*": "${documentWorkspaceFolder}/source/img/about-${fileName}",
+        "/source/cross/*": "${documentWorkspaceFolder}/source/img/cross-${fileName}",
+        "/source/_posts/**/**/*": "${documentWorkspaceFolder}/source/img/${documentBaseName}-${fileName}",
+        "/source/**/*": "${documentWorkspaceFolder}/source/img/pages-${fileName}"
+    }
+}
